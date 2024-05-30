@@ -1,4 +1,3 @@
-
 export default function getLogins(url, IDs) {
     var AAs = {}
     url += JSON.stringify(IDs)
