@@ -11,7 +11,7 @@
 (function() {
     'use strict';
 
-    export defaultfunction getLogins(url, IDs) {
+    export default function getLogins(url, IDs) {
         var AAs = {}
         url += JSON.stringify(IDs)
         getAPI(url, function(data) { loginToEmployeeId(data, AAs); } );
