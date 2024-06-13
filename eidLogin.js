@@ -8,7 +8,7 @@
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
 // ==/UserScript==
 
-(function eidLogin() {
+(function() {
     'use strict';
 
     function getLogins(url, IDs) {
