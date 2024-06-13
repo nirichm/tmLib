@@ -1,4 +1,4 @@
-!function() {
+function urlParse() {
     let sp = new URLSearchParams(document.URL.split('?')[1]);
     let vars = {};
     var temp = ''
@@ -21,3 +21,4 @@
     if ( vars.ed == '' ) { vars.ed = vars.sd };
   console.log(vars);
 };
+urlParse();
